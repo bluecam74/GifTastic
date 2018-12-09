@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>GifTastic</title>
+</head>
+
+<body>
+
+  <div class="row">
+      <div class="col-md-8 buttonArea">
+          <button data-animal="cat" class="gifButton">Cat</button>
+          <button data-animal="dog"class="gifButton">Dog</button>
+          <button data-animal="bird" class="gifButton">Bird</button>
+          <button data-animal="turtle" class="gifButton">Turtle</button>
+          <button data-animal="skunk" class="gifButton">Skunk</button>
+          <button data-animal="hedgehog" class="gifButton">Hedgehog</button>
+          <button data-animal="mouse" class="gifButton">Mouse</button>
+      </div>
+      <div class="col-md-4">
+        <form>
+          <div class="form-group">
+            <label for="animalInput">Add an Animal</label>
+            <input type="text" class="form-control" id="animalInput" placeholder="e.g. 'fox'">
+          </div>
+          <button type="submit" class="btn btn-primary submitButton">Submit</button>
+        </form>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10" id="gifsArea">
+
+    </div>
+  </div>
+  <script src="./assets/javascript.js"></script>
+</body>
+
+</html>

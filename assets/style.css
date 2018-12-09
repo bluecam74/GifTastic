@@ -1,0 +1,16 @@
+body {
+    padding: 30px;
+}
+
+#animalInput {
+    width: 300px;
+}
+
+.gifDiv {
+    margin: 0;
+    width: 33%;
+}
+
+.gifButton {
+    margin: 10px;
+}
